@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<!-- A graphics card (bracket, shroud, two fans, PCIe contacts) with a live sensor trace. -->
+	<rect x="4" y="14" width="5" height="34" rx="1" fill="#9AA5B1" />
+	<rect x="9" y="16" width="51" height="28" rx="4" fill="#1F2933" />
+	<rect x="9" y="16" width="51" height="28" rx="4" fill="none" stroke="#3E4C59" stroke-width="2" />
+	<circle cx="23" cy="30" r="10" fill="#323F4B" />
+	<circle cx="46" cy="30" r="10" fill="#323F4B" />
+	<g fill="#7B8794">
+		<path d="M23 30 L23 21 A9 9 0 0 1 30 25 Z" />
+		<path d="M23 30 L32 30 A9 9 0 0 1 28 37 Z" />
+		<path d="M23 30 L23 39 A9 9 0 0 1 16 35 Z" />
+		<path d="M23 30 L14 30 A9 9 0 0 1 18 23 Z" />
+		<path d="M46 30 L46 21 A9 9 0 0 1 53 25 Z" />
+		<path d="M46 30 L55 30 A9 9 0 0 1 51 37 Z" />
+		<path d="M46 30 L46 39 A9 9 0 0 1 39 35 Z" />
+		<path d="M46 30 L37 30 A9 9 0 0 1 41 23 Z" />
+	</g>
+	<circle cx="23" cy="30" r="3" fill="#1F2933" />
+	<circle cx="46" cy="30" r="3" fill="#1F2933" />
+	<rect x="16" y="44" width="30" height="5" fill="#D9A23B" />
+	<path d="M6 58 H20 L25 52 L31 61 L37 54 L41 58 H58" fill="none" stroke="#2BB673" stroke-width="3"
+		stroke-linecap="round" stroke-linejoin="round" />
+</svg>

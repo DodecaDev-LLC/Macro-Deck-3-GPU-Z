@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.macro-deck.app/plugin-manifest-v1.schema.json",
+  "manifestVersion": 1,
+  "id": "com.dodecadev.gpu-z",
+  "name": "GPU-Z Plugin",
+  "version": "1.0.0",
+  "description": "Live GPU-Z sensor readings and graphics card details as Macro Deck variables.",
+  "icon": "Assets/icon.svg",
+  "entrypoints": {
+    "win-x64": {
+      "executable": "runtimes/win-x64/DodecaDev.GpuZ.dll",
+      "runtime": {
+        "kind": "FrameworkDependent",
+        "dotnetVersion": "10.0"
+      }
+    }
+  },
+  "publisher": {
+    "name": "DodecaDev"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/DodecaDev-LLC/Macro-Deck-3-GPU-Z",
+  "compatibility": {
+    "macroDeck": ">=3.0.0-0"
+  },
+  "ai": {
+    "interaction": false,
+    "generatedContent": false,
+    "generatedAssets": true
+  }
+}

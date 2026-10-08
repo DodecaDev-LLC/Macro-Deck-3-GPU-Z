@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- The default-language file. Every translation is checked against it and the fallback chain ends
+       here, so it is required even for a plugin that ships one language. Add a language by adding
+       Localization/Strings.<culture>.resx beside it (Strings.de.resx, Strings.pt-BR.resx).
+       A dotted key becomes a nested class: Actions.LogMessage.Name is Strings.Actions.LogMessage.Name(). -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Catalog.CardInfo" xml:space="preserve">
+    <value>Card info</value>
+    <comment>Variable browser folder holding GPU-Z's graphics card details (name, driver, memory, BIOS).</comment>
+  </data>
+  <data name="Catalog.Sensors" xml:space="preserve">
+    <value>Sensors</value>
+    <comment>Variable browser folder holding GPU-Z's live sensor readings (clocks, temperatures, load).</comment>
+  </data>
+  <data name="Variables.IsRunning.Name" xml:space="preserve">
+    <value>GPU-Z is running</value>
+  </data>
+  <data name="Variables.IsRunning.Description" xml:space="preserve">
+    <value>True while GPU-Z is running and sharing its readings. Every other GPU-Z variable is unavailable while this is false.</value>
+  </data>
+</root>
